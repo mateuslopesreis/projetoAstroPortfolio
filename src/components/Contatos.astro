@@ -3,39 +3,39 @@
 
 ---
 
-<section class='min-h-screen bg-base-200'>
-    <div class="text-center pr-40 pl-40">
-        <h1 class="text-4xl font-bold pt-20">Contatos</h1>
-
-        <p class="pt-20">Quer dizer um oi, solicitar meu currículo ou explorar a possibilidade de colaborarmos em algo incrível? Adoraria ouvir de você!
-
-            Preencha suas informações no formulário abaixo e entrarei em contato em breve.</p>
-        
+<div class="hero bg-base-400 min-h-screen">
+  <div class="hero-content flex-col lg:flex-row-reverse">
+    <div class="text-center lg:text-left">
+      <h1 class="text-5xl font-bold">Contatos</h1>
+      <p class="py-6">
+        Quer dizer um oi, solicitar meu currículo ou explorar a possibilidade de colaborarmos em algo incrível? Adoraria ouvir de você!
+        Preencha suas informações no formulário abaixo e entrarei em contato em breve.
+      </p>
     </div>
-
-    <div class="hero flex flex-col p-10">
-
-    <label class="input input-bordered flex items-center gap-2 mb-5">
-        Name
-        <input type="text" class="grow" placeholder="Pessoa" />
-      </label>
-      <label class="input input-bordered flex items-center gap-2 mb-5">
-        Email
-        <input type="text" class="grow" placeholder="pessoa@gmail.com" />
-      </label>
-
-      <button class="bg-slate-900 text-cyan-50  p-4  rounded">Enviar Email</button>
+    <div class="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
+      <form class="card-body">
+        <div class="form-control">
+          <label class="label">
+            <span class="label-text">Email</span>
+          </label>
+          <input type="email" placeholder="email" class="input input-bordered" required />
+        </div>
+        <div class="form-control">
+          <label class="label">
+            <span class="label-text">Password</span>
+          </label>
+          <input type="password" placeholder="password" class="input input-bordered" required />
+          <label class="label">
+            <a href="#" class="label-text-alt link link-hover">Forgot password?</a>
+          </label>
+        </div>
+        <div class="form-control mt-6">
+          <button class="btn btn-primary">Login</button>
+        </div>
+      </form>
     </div>
-
-    <div class="flex justify-center m-5 gap-5">
-        <img class="size-5" src="https://cdn-icons-png.flaticon.com/512/1384/1384063.png"/>
-        <img class="size-5" src="https://cdn-icons-png.flaticon.com/512/5968/5968764.png"/>
-        <img class="size-5" src="https://cdn-icons-png.flaticon.com/512/3670/3670051.png"/>
-        <img class="size-5" src="https://cdn-icons-png.flaticon.com/512/25/25231.png"/>
-        <img class="size-5" src="https://cdn-icons-png.flaticon.com/512/174/174857.png"/>
-
-        
-    </div>
+  </div>
+</div>
 
     <footer class="footer footer-center bg-base-300 text-base-content p-4">
         <aside>
